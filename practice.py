@@ -1,7 +1,7 @@
 a = '안녕 왕호랭이야 '
 print(a.startswith('안녕')) 
 #startswith(문자열) => bool 타입 반환 : 첫글자가 괄호안의 문자열과 같다면 True, 아니면 False 를 반환, 앞에 공백이 있는 것도 포함
-print(a.endswith('왕호랭이야')) 
+print(a.endswith('왕호랭이야 ')) 
 #endswith(문자열) => 끝글자가 괄호안의 문자열과 비교하여 불리언 타입 반환 
 print(a.strip()) # a.strip(' ') 과 같은 결과를 출력함 
 #strip(제거하고 싶은 문자열 또는 공백) => 앞뒤로 제거하고 싶은 문자열을 제거해준다. 
