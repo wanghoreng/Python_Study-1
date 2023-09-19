@@ -10,4 +10,11 @@ for i in range(0,T) :
   print()
 
 
-
+# 결과 
+'''
+2                    
+3 ABC
+AAABBBCCC             - 결과
+5 /HTP
+/////HHHHHTTTTTPPPPP  - 결과 
+'''
