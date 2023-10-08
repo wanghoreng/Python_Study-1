@@ -24,3 +24,30 @@ my_list3 = list(my_dic)
 print(my_list3)
 # ['오예스', '몽쉘', '초코파이']
 
+# 함수 
+print('함수 테스트1')
+def add(a,b) : 
+  return a+b
+
+print(add(3,7))
+
+# global 키워드 사용한 함수 
+print('함수 테스트2')
+
+g = 0 
+def globalT() : 
+  global g # global 키워드를 사용할 경우, 해당 변수는 함수밖의 같은이름을 가진 변수를 참조하게 된다.
+  g = 1   # global 키워드 없이 사용할 경우, 함수 내의 지역변수로 인식된다. 
+globalT()
+print("%d는 어떻게 쓰는고?" %g) # 1 
+
+# lambda 를 이용한 간단한 식 
+print((lambda a,b: a+b)(3,7)) # 10
+
+# input() 의 시간초과를 해결해줄 sys라이브러리 
+import sys 
+data = sys.stdin.readline().rstrip() # rstrip() 을 사용하게 될 경우 readline() 으로 입력시 들어가는 엔터(줄바꿈기호)를 제거해준다. 
+print(data, end='')
+data2 = sys.stdin.readline()
+print(data2)
+# rstrip 이 없을 경우 -> hello\nhello2, rstrip() 이 있을 경우 -> hellohello2 가 된다.
