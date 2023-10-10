@@ -10,13 +10,15 @@ N킬로그램을 배달해야한다고 가정할 때
 n = int(input())
 
 count = 0
-while n!= 0 : 
-  if n < 5 : 
-    count = -1 
-    break
-  while n % 5 != 0 : 
-    n -= 3
-    count += 1  
-  count += n // 5 
 
+# n이 음수가 되면 설탕무게들과 나누어 떨어지지 않는다. 
+while n >= 0: 
+  if n % 5 == 0 : 
+    count += (n // 5) 
+    break 
+  n -= 3 # 5의 배수가 될 때까지 -3 
+  count += 1 
+else : 
+  count = -1 
+    
 print(count) 
