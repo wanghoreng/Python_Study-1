@@ -1,14 +1,15 @@
 # Python_Study
-## 1. 파이썬 문법 및 코딩테스트 풀이내용을 올릴 예정입니다. 
-사용 환경 : vscode 
+### 1. 파이썬 문법 및 코딩테스트 풀이 기록하는 저장소. 
+- **사용 환경** : vscode <br>
+- **사용 언어** : python <br>
+- **문제 웹사이트** : BOJ <br>
+- **저장소** : python 알고리즘 및 코딩테스트 준비를 위해 마련된 공간
+<br><br>
 
-사용 언어 : python
+### 2. 풀이방식
+코드 내에서 문제풀이를 주석처리하여 같이 기록하고 있습니다.<br>
+문제를 보자마자 바로 키보드에 손을 올려 풀기보다, 문제접근방식에 대해 우선적으로 고민합니다.<br>
+시간복잡도를 고려하면서 풀려고 노력하고 있습니다.&nbsp;<img alt="GIF" src="https://github.com/SP-XD/SP-XD/blob/main/images/Developer.gif" width="25" /><br>
 
-저장소 : python 알고리즘 및 코딩테스트 준비를 위해 마련된 공간 
 
-
-### 1-1. 깃 사용법 
-[깃 사용법 블로그](https://velog.io/@blair-lee/VSCode%EC%97%90%EC%84%9C-Github-%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%A7%B1%EC%89%AC%EC%9B%80%E3%85%8B%E3%85%8B) 
-
-[깃 마크다운 사용법](https://backendcode.tistory.com/165)
 
