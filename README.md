@@ -3,6 +3,7 @@
 - **사용 환경** : vscode <br>
 - **사용 언어** : python <br>
 - **문제 웹사이트** : BOJ <br>
+- <a href="https://github.com/wanghoreng#-status"></a>**티어** <br>
 - **저장소** : python 알고리즘 및 코딩테스트 준비를 위해 마련된 공간
 <br><br>
 
