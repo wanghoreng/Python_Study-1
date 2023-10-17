@@ -1,5 +1,6 @@
 # Python_Study
 ### 1. 파이썬 문법 및 코딩테스트 풀이 기록하는 저장소. 
+- **업로드** : Every day
 - **사용 환경** : vscode <br>
 - **사용 언어** : python <br>
 - **문제 웹사이트** : BOJ <br>
