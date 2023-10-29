@@ -26,8 +26,8 @@ for i in range(15) :
 
 text = [input() for _ in range(5)]
 
-for i in range(max(len(e)) for e in text) # text 중 가장 긴 문자열만큼 
+for i in range(max(len(e)) for e in text) : # text 중 가장 긴 문자열만큼
   for j in range(5) : # 열 (단어의 갯수 총 5개)
-    if i < len(text[j]) # 글자수체크(i)보다 text[j] 길이가 짧으면 text[j]의 i 번째가 없다는 뜻이기 때문에, 작을 경우에만 출력한다. 
+    if i < len(text[j]) :# 글자수체크(i)보다 text[j] 길이가 짧으면 text[j]의 i 번째가 없다는 뜻이기 때문에, 작을 경우에만 출력한다. 
       print(text[j][i], end='')
 
